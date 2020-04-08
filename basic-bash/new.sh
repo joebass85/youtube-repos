@@ -10,7 +10,7 @@ function test_func1 () {
 test_func2 (){
 	echo "This is the second test function"
 	sleep 2
-	ls -Flp --color=auto ~/work/
+	ls -Flp --color=auto ~/youtube-repos/
 }
 
 # Argument Handling #
