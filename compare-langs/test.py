@@ -2,5 +2,5 @@
 print("This is Python")
 x = 1
 while x < 11:
-	print("This is numebr " + str(x) + "!")
+	print("This is number " + str(x) + "!")
 	x += 1
