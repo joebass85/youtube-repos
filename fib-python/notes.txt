@@ -1,0 +1,11 @@
+Fibonacci test #1 with no optimization - 1955.354 seconds (did not finish. Stopped at this time.)
+Fibonacci teset #2 with memoization - 22.695 seconds
+Fibonacci test #3 with memoization and multithreading - 14.726 seconds
+Fibonacci test #4 with memoization and multiprocessing - 36.241 seconds
+
+Timed using the built-in shell program time.
+All code is Python 3.
+The Multithreading and Multiprocessing code is basically the same, with one small change in line 22.
+For Multithreading, it should read "with concurrent.futures.ThreadingPoolExecutor()".
+For Multiprocessing, it should read "with concurrent.futures.ProcessPoolExecutor()".
+
